@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af00d846b7f0cbd42be4ed0c0d9e0d41
+guid: 9449509743527ce45a6e8fbcb4a06a2b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 45
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,211 +110,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AnderRunsheet_0
+      name: Ander_attack_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 201
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2225d1bc86856b840a45a2e61c333f20
-      internalID: 858102083
+      spriteID: 96f4ab12d68a1594a84b493ed5553acc
+      internalID: -1272292617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_1
+      name: Ander_attack_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 67
+        y: 201
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8823abca14080c04f8c19d561b09c52a
-      internalID: 1683477603
+      spriteID: 8faec1cd8f0ff0b47b25025a61a54e21
+      internalID: -1729095427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_2
+      name: Ander_attack_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 134
+        y: 201
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fdfec4a6f79e7a4bbe3fde036654283
-      internalID: 1024383614
+      spriteID: cc3c76f93113f224fa728621bad9e700
+      internalID: -347916649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_3
+      name: Ander_attack_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 201
+        y: 201
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 611bc8d481d7b174eba8fc29b74b1569
-      internalID: 1646189899
+      spriteID: 787fbec861f6d5c44b1d97bbe7c517d1
+      internalID: -1687259705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_4
+      name: Ander_attack_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 134
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d3ddc553fcb7c640bf4a37f6ad38a10
-      internalID: -1409437547
+      spriteID: fe283a5b1cbd1894a9e6e104dd36812d
+      internalID: -882937027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_5
+      name: Ander_attack_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
+        x: 67
+        y: 134
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a078fe2a3436b741bbcfd1ce3c37980
-      internalID: -1255993543
+      spriteID: 4a84a7ec07e107148a4bfe49fc2f2ad9
+      internalID: 1875299715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_6
+      name: Ander_attack_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 134
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a538613d6a72946a76ab82f30722c4
+      internalID: -580499551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_attack_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 134
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ef028bd122774f9df043fbcf689e8
+      internalID: -713309925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_attack_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26c8df6c0d107e4c9135e0cc026ebec
+      internalID: -1596970763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_attack_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 67
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b492fdb5d7c24847aca8cfd08726963
+      internalID: 1439911915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_attack_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 67
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc699010cef12a49affcb43d51f2985
+      internalID: 892145555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_attack_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 67
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878b83b76e2a32748aff1e402c5cf5ee
+      internalID: 674595636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_attack_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a744973fc84c83344a195b0b379b6fdd
-      internalID: -44144535
+      spriteID: f6426cc8cd4c48244bf28d4c7fee1e2d
+      internalID: -1882314132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_7
+      name: Ander_attack_13
       rect:
         serializedVersion: 2
-        x: 64
+        x: 67
         y: 0
-        width: 64
-        height: 64
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3de9b42dee0952b4f8707500abcfebda
-      internalID: 327563576
+      spriteID: cb79ad5bb9032304893313dfabe794d1
+      internalID: -865943635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_8
+      name: Ander_attack_14
       rect:
         serializedVersion: 2
-        x: 128
+        x: 134
         y: 0
-        width: 64
-        height: 64
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4a5b38c486b4504fbe23744636e2b68
-      internalID: -46258741
+      spriteID: 31699bd691fd387409700418142fc6d0
+      internalID: 861346831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_9
+      name: Ander_attack_15
       rect:
         serializedVersion: 2
-        x: 192
+        x: 201
         y: 0
-        width: 64
-        height: 64
+        width: 67
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3695ee9ca8f3544485fbe9f03446e27
-      internalID: -328476822
+      spriteID: 52c5aedb05ac66b4f817c7b6503e1532
+      internalID: 52617423
       vertices: []
       indices: 
       edges: []
@@ -322,7 +448,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 204f4ca3652467e45abc08b1ad3b99b2
+    spriteID: ab500739d5991a8479ffd0a96a3de794
     internalID: 0
     vertices: []
     indices: 
@@ -330,16 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AnderRunsheet_0: 858102083
-      AnderRunsheet_1: 1683477603
-      AnderRunsheet_2: 1024383614
-      AnderRunsheet_3: 1646189899
-      AnderRunsheet_4: -1409437547
-      AnderRunsheet_5: -1255993543
-      AnderRunsheet_6: -44144535
-      AnderRunsheet_7: 327563576
-      AnderRunsheet_8: -46258741
-      AnderRunsheet_9: -328476822
+      Ander_attack_0: -1272292617
+      Ander_attack_1: -1729095427
+      Ander_attack_10: 892145555
+      Ander_attack_11: 674595636
+      Ander_attack_12: -1882314132
+      Ander_attack_13: -865943635
+      Ander_attack_14: 861346831
+      Ander_attack_15: 52617423
+      Ander_attack_2: -347916649
+      Ander_attack_3: -1687259705
+      Ander_attack_4: -882937027
+      Ander_attack_5: 1875299715
+      Ander_attack_6: -580499551
+      Ander_attack_7: -713309925
+      Ander_attack_8: -1596970763
+      Ander_attack_9: 1439911915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

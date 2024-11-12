@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af00d846b7f0cbd42be4ed0c0d9e0d41
+guid: 0d5d3aa6a63cf134896de0aa6e21c830
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 45
+  spritePixelsToUnits: 100.2
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,211 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AnderRunsheet_0
+      name: Ander_jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4260825, y: 0.4014432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54183822dd78504ba84de1780cb04ca
+      internalID: -555301018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_jump_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.42256224, y: 0.3732841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5ad4903db2bc498009dac43cee57e
+      internalID: 778617209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_jump_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.42256212, y: 0.34864473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb59877daa35e842afa60370ab7c379
+      internalID: 474395735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ander_jump_3
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.42256236, y: 0.3838439}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2225d1bc86856b840a45a2e61c333f20
-      internalID: 858102083
+      spriteID: 547074a008ee5584a9f74a9853e26348
+      internalID: -1630018786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_1
+      name: Ander_jump_4
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.41552258, y: 0.44720173}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8823abca14080c04f8c19d561b09c52a
-      internalID: 1683477603
+      spriteID: b0ca55b8524014847a4ed060cff36e16
+      internalID: -1699313731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_2
+      name: Ander_jump_5
       rect:
         serializedVersion: 2
         x: 128
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.42256236, y: 0.44016194}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fdfec4a6f79e7a4bbe3fde036654283
-      internalID: 1024383614
+      spriteID: 78ea3b0e27ecda747b15df7bffb83bc6
+      internalID: -94716347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 611bc8d481d7b174eba8fc29b74b1569
-      internalID: 1646189899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnderRunsheet_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d3ddc553fcb7c640bf4a37f6ad38a10
-      internalID: -1409437547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnderRunsheet_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a078fe2a3436b741bbcfd1ce3c37980
-      internalID: -1255993543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnderRunsheet_6
+      name: Ander_jump_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.41200286, y: 0.40848318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a744973fc84c83344a195b0b379b6fdd
-      internalID: -44144535
+      spriteID: 2185afdbd8be86d4b9b0d0f7aacab04a
+      internalID: -1099755254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AnderRunsheet_7
+      name: Ander_jump_7
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.41904247, y: 0.3768041}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3de9b42dee0952b4f8707500abcfebda
-      internalID: 327563576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnderRunsheet_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4a5b38c486b4504fbe23744636e2b68
-      internalID: -46258741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnderRunsheet_9
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3695ee9ca8f3544485fbe9f03446e27
-      internalID: -328476822
+      spriteID: 652a18512e01e57459e4a61a687227ee
+      internalID: -1558681277
       vertices: []
       indices: 
       edges: []
@@ -322,7 +280,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 204f4ca3652467e45abc08b1ad3b99b2
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -330,16 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AnderRunsheet_0: 858102083
-      AnderRunsheet_1: 1683477603
-      AnderRunsheet_2: 1024383614
-      AnderRunsheet_3: 1646189899
-      AnderRunsheet_4: -1409437547
-      AnderRunsheet_5: -1255993543
-      AnderRunsheet_6: -44144535
-      AnderRunsheet_7: 327563576
-      AnderRunsheet_8: -46258741
-      AnderRunsheet_9: -328476822
+      Ander_jump_0: -555301018
+      Ander_jump_1: 778617209
+      Ander_jump_2: 474395735
+      Ander_jump_3: -1630018786
+      Ander_jump_4: -1699313731
+      Ander_jump_5: -94716347
+      Ander_jump_6: -1099755254
+      Ander_jump_7: -1558681277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

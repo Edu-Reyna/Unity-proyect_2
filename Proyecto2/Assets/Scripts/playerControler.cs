@@ -57,6 +57,15 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;
         }
 
+        Atacar();
+    }
+
+    private void Atacar()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            animator.SetTrigger("ActionTrigger");
+        }
     }
 
 }
