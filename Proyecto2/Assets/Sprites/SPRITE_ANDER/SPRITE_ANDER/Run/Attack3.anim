@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Atack
+  m_Name: Attack3
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1272292617, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+      value: {fileID: 892145555, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
     - time: 0.09090909
-      value: {fileID: -1729095427, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+      value: {fileID: 674595636, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
     - time: 0.18181819
-      value: {fileID: -347916649, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+      value: {fileID: -1882314132, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
     - time: 0.27272728
-      value: {fileID: -1687259705, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+      value: {fileID: -865943635, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
     - time: 0.36363637
-      value: {fileID: -882937027, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+      value: {fileID: 861346831, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - time: 0.45454547
+      value: {fileID: 52617423, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,17 +54,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1272292617, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
-    - {fileID: -1729095427, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
-    - {fileID: -347916649, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
-    - {fileID: -1687259705, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
-    - {fileID: -882937027, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - {fileID: 892145555, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - {fileID: 674595636, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - {fileID: -1882314132, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - {fileID: -865943635, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - {fileID: 861346831, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
+    - {fileID: 52617423, guid: 9449509743527ce45a6e8fbcb4a06a2b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.45454547
+    m_StopTime: 0.54545456
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -82,14 +85,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.18181819
-    functionName: Star_Combo
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.36363637
+  - time: 0.45454547
     functionName: Finish_ani
     data: 
     objectReferenceParameter: {fileID: 0}

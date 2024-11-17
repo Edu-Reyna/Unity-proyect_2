@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float groundDist;
     public Animator animator;
+    public int combo;
+    public bool atacando;
+
 
     public LayerMask terrainLayer;
     public Rigidbody rb;
@@ -57,15 +60,33 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;
         }
 
-        Atacar();
+        Combos();
     }
 
-    private void Atacar()
+    void Combos() 
     {
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.C) && !atacando)
         {
-            animator.SetTrigger("ActionTrigger");
+            atacando = true;
+            animator.SetTrigger("" + combo);
+
+            
         }
+    }
+
+    void Star_Combo() 
+    {
+        atacando = false;
+        if (combo < 3)
+        {
+            combo++;
+        }
+    }
+
+    void Finish_ani() 
+    {
+        atacando = false;
+        combo = 0;
     }
 
 }
