@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0d5d3aa6a63cf134896de0aa6e21c830
+guid: a495a895e611d2245bc7a15f3b1b1a57
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,169 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ander_jump_0
+      name: Ander_jump 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.4260825, y: 0.4014432}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f54183822dd78504ba84de1780cb04ca
-      internalID: -555301018
+      spriteID: 7e35f422d4d45954bbcdc5dd65f008db
+      internalID: -1258769833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_1
+      name: Ander_jump 1_1
       rect:
         serializedVersion: 2
         x: 64
         y: 128
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.42256224, y: 0.3732841}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bf5ad4903db2bc498009dac43cee57e
-      internalID: 778617209
+      spriteID: 77d1f3fc01c56ee44b789508f15c2707
+      internalID: 1404344176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_2
+      name: Ander_jump 1_2
       rect:
         serializedVersion: 2
         x: 128
         y: 128
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.42256212, y: 0.34864473}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fb59877daa35e842afa60370ab7c379
-      internalID: 474395735
+      spriteID: 2d798e086be728342b61421c000cac11
+      internalID: -688610490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_3
+      name: Ander_jump 1_3
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.42256236, y: 0.3838439}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547074a008ee5584a9f74a9853e26348
-      internalID: -1630018786
+      spriteID: 26a85e48830d7ad40b03d670a8213c05
+      internalID: 954356712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_4
+      name: Ander_jump 1_4
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.41552258, y: 0.44720173}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ca55b8524014847a4ed060cff36e16
-      internalID: -1699313731
+      spriteID: 4902729ce025444459aa582a182e0fba
+      internalID: -1968456790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_5
+      name: Ander_jump 1_5
       rect:
         serializedVersion: 2
         x: 128
         y: 64
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.42256236, y: 0.44016194}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78ea3b0e27ecda747b15df7bffb83bc6
-      internalID: -94716347
+      spriteID: dcd79c2ee6a551c4b95e956abe881808
+      internalID: 1356814635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_6
+      name: Ander_jump 1_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.41200286, y: 0.40848318}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2185afdbd8be86d4b9b0d0f7aacab04a
-      internalID: -1099755254
+      spriteID: 0b36892b07b9f5643a5dbbaf0a6cf581
+      internalID: -1607940121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ander_jump_7
+      name: Ander_jump 1_7
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.41904247, y: 0.3768041}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652a18512e01e57459e4a61a687227ee
-      internalID: -1558681277
+      spriteID: 6544c28727b942048ad4eb3479c24cc3
+      internalID: -1990848493
       vertices: []
       indices: 
       edges: []
@@ -280,7 +280,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 357e0133f4881d54ea7b756a5d4c2981
     internalID: 0
     vertices: []
     indices: 
@@ -288,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ander_jump_0: -555301018
-      Ander_jump_1: 778617209
-      Ander_jump_2: 474395735
-      Ander_jump_3: -1630018786
-      Ander_jump_4: -1699313731
-      Ander_jump_5: -94716347
-      Ander_jump_6: -1099755254
-      Ander_jump_7: -1558681277
+      Ander_jump 1_0: -1258769833
+      Ander_jump 1_1: 1404344176
+      Ander_jump 1_2: -688610490
+      Ander_jump 1_3: 954356712
+      Ander_jump 1_4: -1968456790
+      Ander_jump 1_5: 1356814635
+      Ander_jump 1_6: -1607940121
+      Ander_jump 1_7: -1990848493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
