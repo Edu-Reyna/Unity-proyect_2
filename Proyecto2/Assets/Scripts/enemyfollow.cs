@@ -2,87 +2,101 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyfollow : MonoBehaviour
+public class EnemyFollow : MonoBehaviour
 {
     public Transform player; // Referencia al jugador
     public float detectionRadius = 5.0f; // Radio de detección general
-    public float detectionRadius2 = 4.0f; // Radio de detección para la lengua (Tongue)
+    public float detectionRadius2 = 4.0f; // Radio de detección para Tongue
     public float speed = 2.0f; // Velocidad de movimiento
-    Animator anim;
-    public FrogController frogController; // Referencia al controlador de la rana
 
-    private Vector3 movement;
-    private bool isChasing = false; // Estado para saber si está persiguiendo al jugador
-    private float lastTurnAngle = 0f; // Ángulo en el que el enemigo realizó el último giro
+    private Animator anim; // Controlador de animaciones
+    private Vector3 movement; // Movimiento del enemigo
+
+    void Start()
+    {
+        anim = GetComponent<Animator>(); // Inicializa el Animator
+    }
 
     void Update()
     {
         // Calcula la distancia al jugador
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        // Si el jugador está dentro del radio de detección
-        if (distanceToPlayer < detectionRadius)
+        // Verifica si el jugador está en el área de ataque (detectionRadius2)
+        if (distanceToPlayer < detectionRadius2)
         {
-            if (!isChasing)
-            {
-                frogController.Crawl(); // Llama al método Crawl() del controlador de la rana
-                isChasing = true; // Cambiar estado a perseguir
-            }
-
-            // Movimiento hacia el jugador
-            Vector3 direction = (player.position - transform.position).normalized;
-
-            // Determina el ángulo entre la rana y el jugador para saber hacia dónde girar
-            float angle = Vector3.SignedAngle(transform.forward, direction, Vector3.up);
-
-            // Establece un umbral para evitar cambios de dirección muy pequeños
-            if (Mathf.Abs(angle) > 5f && Mathf.Abs(angle - lastTurnAngle) > 5f)
-            {
-                // Gira hacia la dirección del jugador
-                if (angle > 0)
-                {
-                    frogController.TurnRightWithRotation(angle); // Gira a la derecha
-                }
-                else
-                {
-                    frogController.TurnLeftWithRotation(-angle); // Gira a la izquierda
-                }
-
-                // Guarda el ángulo actual después de girar
-                lastTurnAngle = angle;
-            }
-
-            movement = new Vector3(direction.x, 0, direction.z); // Movimiento en el plano horizontal
+            // Activa la animación de Tongue y desactiva otras animaciones
+            anim.SetBool("Tongue", true);
+            anim.SetBool("Crawl", false);
+        }
+        else if (distanceToPlayer < detectionRadius)
+        {
+            // Activa la animación de Crawl cuando el jugador esté en el rango general
+            anim.SetBool("Tongue", false);
+            anim.SetBool("Crawl", true);
         }
         else
         {
-            if (isChasing)
-            {
-                frogController.Idle(); // Llama al método Idle() cuando deja de perseguir
-                isChasing = false; // Cambiar estado a inactivo
-            }
-            movement = Vector3.zero; // Detener el movimiento cuando el jugador esté fuera de alcance
+            // Fuera de todos los rangos, se pone Idle
+            anim.SetBool("Tongue", false);
+            anim.SetBool("Crawl", false);
+            anim.SetTrigger("Idle");
         }
 
-        // Control de la animación de la lengua (Tongue) dentro del radio de detección 2
-        if (distanceToPlayer < detectionRadius2)
+        // Movimiento hacia el jugador si está en el rango general (detectionRadius)
+        if (distanceToPlayer < detectionRadius && distanceToPlayer >= detectionRadius2)
         {
-            frogController.Tongue(); // Llama al método Tongue() cuando el jugador está dentro del radio de la lengua
+            Vector3 direction = (player.position - transform.position).normalized;
+            movement = new Vector3(direction.x, 0, direction.z);
+        }
+        else
+        {
+            movement = Vector3.zero; // Detén el movimiento si está fuera de detectionRadius
         }
 
-        // Mueve la rana directamente usando Translate
+        // Gira hacia el jugador
+        if (movement != Vector3.zero)
+        {
+            Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, 200 * Time.deltaTime);
+        }
+
+        // Mueve al enemigo
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
     }
 
-    // Dibuja los Gizmos en la vista de escena para mostrar los radios de detección
+    // Dibuja los Gizmos en la vista de escena
     void OnDrawGizmosSelected()
     {
-        // Dibuja el radio de detección general en rojo
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+        if (!Application.isPlaying || player == null)
+        {
+            // Dibujar siempre el radio de detección general en rojo
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, detectionRadius);
 
-        // Dibuja el radio de detección específico para la lengua en azul
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius2);
+            // Dibujar siempre el radio de detección específico en azul
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(transform.position, detectionRadius2);
+
+            return;
+        }
+
+        // Determinar la distancia al jugador
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        // Mostrar Gizmo rojo si el jugador está en detectionRadius
+        if (distanceToPlayer < detectionRadius)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, detectionRadius);
+        }
+
+        // Mostrar Gizmo azul si el jugador está en detectionRadius2
+        if (distanceToPlayer < detectionRadius2)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(transform.position, detectionRadius2);
+        }
     }
 }
+
